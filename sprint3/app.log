@@ -1,0 +1,15 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 265-004-126
+INFO:root:{'usuario': 'josuer', 'direccion_ip': '127.0.0.1', 'end_point': '/predict', 'user_agent': 'PostmanRuntime/7.32.3', 'time': '2023-10-25 14:54:09.884532', 'payload': {'FLAG_OWN_CAR': 0, 'FLAG_OWN_REALTY': 1, 'CNT_CHILDREN': 2, 'AMT_INCOME_TOTAL': 50000, 'NAME_INCOME_TYPE': 0, 'NAME_EDUCATION_TYPE': 1, 'NAME_FAMILY_STATUS': 2, 'NAME_HOUSING_TYPE': 1, 'DAYS_BIRTH': 12000, 'DAYS_EMPLOYED': 3000, 'OCCUPATION_TYPE': 3, 'CNT_FAM_MEMBERS': 2, 'CNT_ADULTS': 2, 'AMT_INCOME_PER_CHILDREN': 103500, 'AMT_INCOME_PER_FAM_MEMBER': 90000}, 'output': {'prediction': 'bueno'}}
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 14:54:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:{'usuario': 'josuer', 'direccion_ip': '127.0.0.1', 'end_point': '/predict', 'user_agent': 'PostmanRuntime/7.32.3', 'time': '2023-10-25 14:55:21.250989', 'payload': {'FLAG_OWN_CAR': 0, 'FLAG_OWN_REALTY': 0, 'CNT_CHILDREN': 4, 'AMT_INCOME_TOTAL': 10000, 'NAME_INCOME_TYPE': 0, 'NAME_EDUCATION_TYPE': 0, 'NAME_FAMILY_STATUS': 1, 'NAME_HOUSING_TYPE': 2, 'DAYS_BIRTH': 12000, 'DAYS_EMPLOYED': 1000, 'OCCUPATION_TYPE': 2, 'CNT_FAM_MEMBERS': 4, 'CNT_ADULTS': 3, 'AMT_INCOME_PER_CHILDREN': 3500, 'AMT_INCOME_PER_FAM_MEMBER': 90000}, 'output': {'prediction': 'bueno'}}
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 14:55:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:{'usuario': 'josuer', 'direccion_ip': '127.0.0.1', 'end_point': '/predict', 'user_agent': 'PostmanRuntime/7.32.3', 'time': '2023-10-25 14:56:06.521389', 'payload': {'FLAG_OWN_CAR': 1, 'FLAG_OWN_REALTY': 0, 'CNT_CHILDREN': 3, 'AMT_INCOME_TOTAL': 30000, 'NAME_INCOME_TYPE': 2, 'NAME_EDUCATION_TYPE': 4, 'NAME_FAMILY_STATUS': 1, 'NAME_HOUSING_TYPE': 2, 'DAYS_BIRTH': 15000, 'DAYS_EMPLOYED': 5000, 'OCCUPATION_TYPE': 5, 'CNT_FAM_MEMBERS': 5, 'CNT_ADULTS': 2, 'AMT_INCOME_PER_CHILDREN': 7500, 'AMT_INCOME_PER_FAM_MEMBER': 6000}, 'output': {'prediction': 'malo'}}
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 14:56:06] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 265-004-126
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2023 15:15:08] "GET / HTTP/1.1" 200 -
